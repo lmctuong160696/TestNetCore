@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings":
+  {
+    "SQLConnection": "Server=tcp:huydaide.database.windows.net,1433;Initial Catalog=TestAzure;Persist Security Info=False;User ID=khanhhuy130295;Password=Heocon123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}

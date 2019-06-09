@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace TestNetCore.DataAccessLayer.infrastructures
 {
-    internal interface IGenericRepository<T> where T : class
+    public interface IGenericRepository<T> where T : class
     {
         //Create item 
 
