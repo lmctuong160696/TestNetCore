@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="TestNetCore.DataAccessLayer.TestAzureContext" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TestAzureContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Persons" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.DbSet&lt;TEntity&gt;" Collapsed="true">
+    <Position X="10" Y="3.5" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestNetCore.DataAccessLayer.infrastructures.DBFactory" Collapsed="true">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>infrastructures\DBFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="TestNetCore.DataAccessLayer.infrastructures.UnitOfWork" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>infrastructures\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="TestNetCore.DataAccessLayer.infrastructures.RepositoryBase&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQYBAAAAAAAAAAAIAAAAAAAAAAEAAAAQGgAAAIAAAAA=</HashCode>
+      <FileName>infrastructures\RepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.224" />
+  </Class>
+  <Class Name="TestNetCore.DataAccessLayer.infrastructures.Disposable" Collapsed="true">
+    <Position X="8.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>infrastructures\Disposable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestNetCore.DataAccessLayer.repositories.PersonRepository">
+    <Position X="4.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>repositories\PersonRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TestNetCore.DataAccessLayer.infrastructures.IGenericRepository&lt;T&gt;" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAIAAAAAAAAAAEAAAAQAgAAAIAAAAA=</HashCode>
+      <FileName>infrastructures\IGenericRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TestNetCore.DataAccessLayer.infrastructures.IUnitOfWork" Collapsed="true">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>infrastructures\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TestNetCore.DataAccessLayer.infrastructures.IDBFactory" Collapsed="true">
+    <Position X="6.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>infrastructures\IDBFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TestNetCore.DataAccessLayer.repositories.IPersSonRepository">
+    <Position X="7.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>repositories\PersonRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
